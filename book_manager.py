@@ -10,7 +10,7 @@ class Book:
         return self.isbn == other.isbn
 
     def __repr__(self):
-        return f"Book({self.isbn}, '{self.title}', '{self.author}')"
+        return f"Book({self.isbn}, '{self.title}', '{self.author}')" 
 
 
 class BookManager:
